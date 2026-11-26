@@ -6,14 +6,14 @@ CC_VERSION="$2"
 LD=$3
 
 if test -z "$KBUILD_BUILD_USER"; then
-	LINUX_COMPILE_BY="therealmharc"
+	LINUX_COMPILE_BY="SoniHK"
 else
-	LINUX_COMPILE_BY="therealmharc"
+	LINUX_COMPILE_BY="SoniHK"
 fi
 if test -z "$KBUILD_BUILD_HOST"; then
-	LINUX_COMPILE_HOST="RANDOMSCAPE"
+	LINUX_COMPILE_HOST="Ratatoskr"
 else
-	LINUX_COMPILE_HOST="RANDOMSCAPE"
+	LINUX_COMPILE_HOST="Ratatoskr"
 fi
 
 LD_VERSION=$(LC_ALL=C $LD -v | head -n1 |
